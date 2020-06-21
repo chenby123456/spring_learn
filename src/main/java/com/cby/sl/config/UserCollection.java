@@ -20,6 +20,8 @@ import java.util.Map;
  * spring.users.wife.mobile=15737178039
  *
  * 如上，map命名必须是users，否则无法注入
+ *
+ * 另外 还可以使用@PropertiesSource注解来指定配置文件
  */
 @Configuration
 @ConfigurationProperties(prefix = "spring")
